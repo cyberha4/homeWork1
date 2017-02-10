@@ -81,7 +81,7 @@ public class Parser implements Runnable {
                 writeWords(s);
             }
         } catch(IOException ex){
-            System.out.println("error4");
+            System.out.println("Ошибка чтения файла!");
         }
 
     }

@@ -10,13 +10,18 @@ import java.util.*;
  */
 public class Main {
     public static void main(String[] args) {
-        String fileLocation = "C:\\files\\text1.txt";
-        String fileLocation1 = "C:\\files\\text2.txt";
-        String fileLocation2 = "C:\\files\\text3.txt";
+        //String fileLocation = "C:\\files\\text1.txt";
+        //String fileLocation1 = "C:\\files\\text2.txt";
+        //String fileLocation2 = "C:\\files\\text3.txt";
+
+        String fileLocation = "/home/sa/files/text1";
+        String fileLocation1 = "/home/sa/files/text2";
+        //String fileLocation2 = "C:\\files\\text3.txt";
+
         List<String> resources = new ArrayList<>();
         resources.add(fileLocation);
         resources.add(fileLocation1);
-        resources.add(fileLocation2);
+        //resources.add(fileLocation2);
         try {
             for(String item : resources){
                 if(Parser.isGood) {
